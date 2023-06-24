@@ -1,0 +1,18 @@
+.admin__layout {
+
+    .admin__navbar {}
+
+    .admin__body_layout {}
+
+
+
+    .admin__body {
+        margin-top: 1rem;
+     @media screen and ( min-width: 501px ) {
+        margin-left: 250px;
+
+     }
+    }
+
+
+}
