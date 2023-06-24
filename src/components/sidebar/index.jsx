@@ -18,8 +18,6 @@ const Sidebar = () => {
                 return <NavLink to={`${data.link}`} key={i} className={({ isActive, isPending  }) => isActive ? "active__link" : ""} >{ data.title }</NavLink>
               })
             }
-            
-           
           </div>
         </div>
       </div>

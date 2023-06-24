@@ -2,6 +2,7 @@
     position: fixed;
     width: 250px;
     height: 100vh;
+    top: 60px;
     overflow-y: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background: #fff;
@@ -53,6 +54,11 @@
                 margin-bottom: 10px;
                 background: #fff;
                 transition: 0.3s ease-out;
+            }
+            a:not(.active__link):hover {
+                background: rgba(47, 43, 61, 0.08);
+                
+                
             }
 
             .active__link {

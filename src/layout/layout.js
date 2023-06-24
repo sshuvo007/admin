@@ -2,6 +2,7 @@ import React from 'react'
 import AdminNavbar from '../components/nav'
 import Sidebar from '../components/sidebar'
 import './layout.scss'
+import { Outlet } from 'react-router-dom'
 
 const Layout = ({ children }) => {
     return (
@@ -22,7 +23,7 @@ const Layout = ({ children }) => {
                 </div>
             </div>
 
-
+<Outlet />
         </div>
     )
 }
